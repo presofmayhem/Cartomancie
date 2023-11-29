@@ -1,0 +1,131 @@
+body{
+    /*background-color: #f1e6da;*/
+    background-image: url("img/background2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1, .presentation{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h1{
+    font-family: 'Alegreya SC', sans-serif;
+    font-size: 2.5em;
+    padding: 0.5em;
+    margin: 1em 3.5em 1em 3.5em;
+    opacity: 0.7;
+    border-radius: 17% 83% 18% 82% / 60% 33% 67% 40% ;
+}
+
+h2{
+    font-family: 'Alegreya SC', sans-serif;
+    font-size: 1.5em;
+}
+
+.presentation{
+    font-family: 'Lato', sans-serif;
+    padding: 1.5em;
+    margin: 1em 20em 1em 20em;
+    width: 60%;
+    overflow: auto;
+    opacity: 0.95;
+    border-radius: 50% 50% 5% 5%;
+}
+
+.blocs{
+    font-family: 'Lato', sans-serif;
+    padding: 1.5em;
+    margin: 1em 20em 1em 20em;
+    width: 60%;
+    overflow: auto;
+    opacity: 0.95;
+    border-radius: 5%;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.text{
+    text-align: justify;
+    border: 0.1em solid black;
+    padding: 0.8em;
+    border-radius: 5%;
+}
+
+.date{
+    font-size: 0.4em;
+    font-style: italic;
+}
+
+.presentation .img{
+    width: 30%;
+    border-radius: 17% 83% 18% 82% / 60% 33% 67% 40% ;
+}
+
+
+
+.conteiner{
+    display: none;
+    cursor: pointer;
+}
+.conteiner1{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-auto-rows: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 0.8em;
+    border: 1px solid black;
+}
+.titre_cate{
+    font-family: 'Alegreya SC', sans-serif;
+    padding:0.8em;
+    cursor: pointer;
+}
+
+.desc{
+    font-size: 0.8em;
+    text-align: justify;
+}
+/*.date{
+    grid-column: 1/2;
+    grid-row:2;
+}
+.nom{
+    grid-column: 1;
+    grid-row:3;
+}
+.prix{
+    grid-column: 2;
+    grid-row:3;
+}
+.desc{
+    grid-column: 1;
+    grid-row: 4;
+}
+.panier{
+    grid-column: 2;
+    grid-row: 4;
+}*/
+
+/*.box:nth-child(n+2):nth-child(-n+6){
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+.boxtitle{
+    grid-column: 1;
+    grid-row: 1
+}
+.boxdate{
+    grid-column: 1;
+    grid-row: 2;
+}
+.boxdesc{
+    grid-column: 1;
+    grid-row: 3, 4;
+}
+.boxprix{
+    grid-column: 2;
+    grid-row: 3;
+}*/
